@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kira"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextRent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kira"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fatura"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextUtilities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fatura"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Market"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextGroceries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Market"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kıyafet"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextClothing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kıyafet"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yakıt"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextFuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yakıt"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diğer"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextDiger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Diğer"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonSaveExpence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gideri Kaydet" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aylık Toplam Geliriniz"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTotalMonthlyExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Aylık Toplam Geliriniz"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- boşluk-->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/buttonSaveIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Geliri Kaydet"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonNewMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yeni Ay" />
+</LinearLayout>

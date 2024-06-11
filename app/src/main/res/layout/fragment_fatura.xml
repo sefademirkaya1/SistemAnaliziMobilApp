@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.fatura.FaturaFragment">
+
+    <!-- Elektrik Faturası Son Ödeme Tarihi Girişi -->
+    <EditText
+        android:id="@+id/editTextElektrik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Elektrik Son Ödeme Günü"
+        android:inputType="none"
+        android:focusable="false"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Su Faturası Son Ödeme Tarihi Girişi -->
+    <EditText
+        android:id="@+id/editTextSu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Su Son Ödeme Günü"
+        android:inputType="none"
+        android:focusable="false"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Doğalgaz Faturası Son Ödeme Tarihi Girişi -->
+    <EditText
+        android:id="@+id/editTextDogalgaz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doğalgaz Son Ödeme Günü"
+        android:inputType="none"
+        android:focusable="false"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Kira Son Ödeme Tarihi Girişi -->
+    <EditText
+        android:id="@+id/editTextKira"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kira Son Ödeme Günü"
+        android:inputType="none"
+        android:focusable="false"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Diğer Fatura Son Ödeme Tarihi Girişi -->
+    <EditText
+        android:id="@+id/editTextDiger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Diğer Son Ödeme Günü"
+        android:inputType="none"
+        android:focusable="false"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Kaydet Butonu -->
+    <Button
+        android:id="@+id/buttonKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet" />
+</LinearLayout>
