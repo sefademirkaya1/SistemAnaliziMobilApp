@@ -25,7 +25,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun displayBudgetInfo(view: View) {
-        val dbHelper = DatabaseHelper(requireContext())
+        val dbHelper = DatabaseHelper(requireContext())   //requireContext() Fragment'in bağlı olduğu bağlamı (Context) döndürür.Yani Bütçe sınıfı
         val latestExpenses = dbHelper.getLatestExpenses()
         val totalIncome = latestExpenses?.get(DatabaseHelper.COLUMN_TOTAL_INCOME) ?: 0.0
         val totalExpenses = dbHelper.getTotalExpenses()
