@@ -22,7 +22,7 @@ class AlarmReceiver : BroadcastReceiver() {
         if (ActivityCompat.checkSelfPermission(context, "android.permission.POST_NOTIFICATIONS") == PackageManager.PERMISSION_GRANTED) {
             NotificationManagerCompat.from(context).notify(notificationId, notification)
         } else {
-            Log.e("AlarmReceiver", "Notification permission not granted")
+            Log.e("AlarmReceiver", "Bildirim izni verilmedi")
         }
     }
 }
