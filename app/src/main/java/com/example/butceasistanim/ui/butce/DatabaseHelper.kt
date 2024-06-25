@@ -37,9 +37,9 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
         db?.execSQL(createTable)
     }
 
-    override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
-        // Not implemented in this version
-    }
+    //override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
+ //      
+  //  }
 
     fun addExpense(rent: Double, utilities: Double, groceries: Double, clothing: Double, fuel: Double, other: Double, totalIncome: Double): Boolean {
         val db = this.writableDatabase
