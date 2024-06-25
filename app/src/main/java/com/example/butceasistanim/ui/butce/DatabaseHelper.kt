@@ -27,7 +27,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
                 $COLUMN_ID INTEGER PRIMARY KEY AUTOINCREMENT,
                 $COLUMN_RENT REAL,
                 $COLUMN_UTILITIES REAL,
-                $COLUMN_GROCERIES REAL,
+                $COLUMN_GROCERIES REAL,    //REAL SQLİTE DA ONDALIKLI SAYILI TUTAN VERİ TÜRÜ
                 $COLUMN_CLOTHING REAL,
                 $COLUMN_FUEL REAL,
                 $COLUMN_OTHER REAL,
@@ -46,7 +46,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
         val values = ContentValues().apply {
             put(COLUMN_RENT, rent)
             put(COLUMN_UTILITIES, utilities)
-            put(COLUMN_GROCERIES, groceries)
+            put(COLUMN_GROCERIES, groceries)   //put android uygulamasında sqlite a veri eklemek için kullanılan yöntem
             put(COLUMN_CLOTHING, clothing)
             put(COLUMN_FUEL, fuel)
             put(COLUMN_OTHER, other)
