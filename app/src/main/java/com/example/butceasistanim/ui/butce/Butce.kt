@@ -17,7 +17,7 @@ class Butce : Fragment() {
     private lateinit var dbHelper: DatabaseHelper
     private lateinit var editTextRent: EditText
     private lateinit var editTextUtilities: EditText
-    private lateinit var editTextGroceries: EditText
+    private lateinit var editTextGroceries: EditText  //LATEINIT  nullable olmayan değişkenler için kullanılan bir özelliktir ve başlangıçta null değerine izin verilmesi gereken durumlarda kullanılır.
     private lateinit var editTextClothing: EditText
     private lateinit var editTextFuel: EditText
     private lateinit var editTextDiger: EditText
